@@ -1,6 +1,8 @@
 # Shader Baking in Unity
 
-Bake a pretty - or computationally challenging - shader into a texture in Unity, 
+Bake a pretty - or computationally challenging - shader into a texture in Unity. 
+
+Check out this  <a href ="https://medium.com/@snayss/exploration-into-image-based-procedural-generation-unity-8f9fa7de10c1">medium article</a> for a more detailed explanation of the technique, and other related projects <a href ="https://codercat.tk">here</a>.
 
 <img src ="https://user-images.githubusercontent.com/17795014/62589702-0245d880-b87f-11e9-8757-f4fed4ff8d52.png" width="75%">
 
@@ -22,8 +24,4 @@ Pointers if you want to dig in and use this for your own projects:
 
 `Scripts/ShaderBaker.cs` - attach this script to the camera, it is responsible for rendering the mesh to a texture. It has public fields where you should place the object you want to bake, a material with the unwrapped version of the shader you want to bake (`FractalNoiseUnwrap.shader` in this case), and a material with the dilate shader (`Dilate.shader`). You should also set the `backgroundColor` property to be a color that is distinct from the colors in your shader.
 
-For a more detailed explanation of the technique, you can check out a medium article on the topic <a href ="https://medium.com/@snayss/exploration-into-image-based-procedural-generation-unity-8f9fa7de10c1">here</a>.
-. 
 
-
-Check out https://codercat.tk for other projects :) 
