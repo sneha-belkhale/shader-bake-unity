@@ -2,7 +2,7 @@
 
 Bake a pretty - or computationally challenging - shader into a texture in Unity. 
 
-Check out this  <a href ="https://medium.com/@snayss/exploration-into-image-based-procedural-generation-unity-8f9fa7de10c1">medium article</a> for a more detailed explanation of the technique, and other related projects <a href ="https://codercat.tk">here</a>.
+Check out this  <a href ="https://medium.com/@snayss/bake-a-pretty-or-computationally-challenging-shader-into-a-texture-unity-b524569d7384">medium article</a> for a more detailed explanation of the technique, and other related projects <a href ="https://codercat.tk">here</a>.
 
 <img src ="https://user-images.githubusercontent.com/17795014/62589702-0245d880-b87f-11e9-8757-f4fed4ff8d52.png" width="75%">
 
